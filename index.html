@@ -6,27 +6,23 @@
     <title>music</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <input type="text" name="searchBar" id="searchBar" placeholder="Search" onkeyup="searchBar()">
 </head>
 <body>
     <nav >
         <ul >
-      <ul class="ran">  <li class="deb"><img src="logo.jpg" alt="music">Rangoli</li></ul>
-        
+       <ul class="ran"> <li class="deb"><img src="logo.jpg" alt="music">Rangoli</li></ul>
         <li>home</li>
         <li>about</li>
-        <li>Best Song-No Copyright- Made With By Debjit</li>
         <div class="contant">
            <div id="clock"></div>
         </div>
-        <div class="search-container">
-            <input type="text" class="search-box" id="search" placeholder="Search...">
-            <button class="search-button" onclick="performSearch()">Search</button>
-          </div>
+        
     </ul>
     </nav>
     <div class="contaner">
         <div class="songlist">
-       
+            <h1>Best Audio Song-No Copyright- Made With By Debjit</h1> 
         <div class="songItemcontaner">
         <div class="songItem">
             <img  alt="1">
@@ -108,6 +104,16 @@
             <span class="songname">tera-roothna-by-ashir-hindi</span>
             <span class="songlistplay"><span class="timestamp">4:20 <i id="15" class="fa-regular songItemPlay fa-circle-play"></i> </span> </span>
         </div>
+        <div class="songItem">
+            <img src="sb.jpg" alt="1">
+            <span class="songname">tera-roothna-by-ashir-hindi</span>
+            <span class="songlistplay"><span class="timestamp">4:20 <i id="16" class="fa-regular songItemPlay fa-circle-play"></i> </span> </span>
+        </div>
+        <div class="songItem">
+            <img src="sb.jpg" alt="1">
+            <span class="songname">tera-roothna-by-ashir-hindi</span>
+            <span class="songlistplay"><span class="timestamp">4:20 <i id="17" class="fa-regular songItemPlay fa-circle-play"></i> </span> </span>
+        </div>
         
     </div>
         </div>
@@ -115,14 +121,14 @@
     </div>
     <div class="button">
         <input type="range"name="range"id="myProgressBar"min="0" value="0" max="100">
-        <div id="cal"></div>
+
         <div class="icons">
             <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
             <i class="fa-regular fa-3x fa-circle-play" id="masterplay"></i>  
             <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
         </div>
         <div class="songitem">
-        <img src="5uwq.gif" width="42px" alt="" id="gif"> <span id="mastersongname">pushpa pushpa</span>
+        <img src="5uwq.gif" width="42px" alt="" id="gif"> <span id="mastersongname">romantic-song-tera-roothna-by-ashir-</span>
     </div>
     </div>
     <script src="script.js"></script>
